@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("background.jpg");
+}
+.calculator {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.screen {
+  height: 80px;
+  color: black;
+  text-align: end;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+button {
+  height: 50px;
+}
